@@ -85,14 +85,12 @@ public class Main {
 				Sudoku.stampaVuote();
 				break;
 			case 4:
-				/*if (Sudoku.controllaRisoluzione()) {
+				if (Sudoku.controllaRisoluzione()) {
 					System.out.println("Gioco completo. Stai uscendo dal programma.");
 				} else {
 					System.out.println("Gioco incompleto.");
 					scelta=0;
-				}*/
-				System.out.println("Gioco incompleto.");
-				scelta=0;
+				}
 				break;
 			default:
 			}
